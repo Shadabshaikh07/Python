@@ -25,5 +25,5 @@ def file_exists(file_name):
     return os.path.exists(file_path)
 
 if __name__ == '__main__':
-    FILE_NAME = 'wiki.txt'
+    FILE_NAME = 'oliv_twist.txt'
     print(count_word(FILE_NAME))
