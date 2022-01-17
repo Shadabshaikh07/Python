@@ -31,7 +31,8 @@ class Account:
 
 
     def deposit(self, amount):
-        self._balance += amount
+       if amount>0:
+           self._balance += amount
 
 
     def get_balance(self):
@@ -107,4 +108,10 @@ print(b)
 
 
 a1.deposit(10)
+
+
+print('--------------------------------')
+print('Accounts before transfer: \n from_account: {} \n to_account: {}'.format(a1,a2))
 b.transfer(a1.id,a2.id,5)
+print('--------------------------------')
+print('Accounts after transfer: \n from_account: {} \n to_account: {}'.format(a1,a2))
