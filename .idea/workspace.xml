@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb8d619c-6f32-4f35-a51c-e8e61ab44eba" name="Changes" comment="Assignment 3">
+    <list default="true" id="bb8d619c-6f32-4f35-a51c-e8e61ab44eba" name="Changes" comment="Bank Assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/IBM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/IBM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MSFT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MSFT.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inspection/Default.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,20 +44,20 @@
       <recent name="C:\Users\HP\PycharmProjects\PythonHomework\Homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Stock Data">
-    <configuration name="Prime Numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Bank">
+    <configuration name="Bank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonHomework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\HP\anaconda3\envs\PythonHomework\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="C:\Users\HP\PycharmProjects\PythonHomework\Prime Numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,6 +79,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="C:\Users\HP\PycharmProjects\PythonHomework\Prime Numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Stock Data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonHomework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock Data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,13 +196,16 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Prime Numbers " />
       <item itemvalue="Python.Word Count (1)" />
-      <item itemvalue="Python.Prime Numbers" />
       <item itemvalue="Python.Word Count" />
       <item itemvalue="Python.main " />
       <item itemvalue="Python.Stock Data" />
+      <item itemvalue="Python.Stock Data (1)" />
+      <item itemvalue="Python.Bank" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Bank" />
+        <item itemvalue="Python.Stock Data (1)" />
         <item itemvalue="Python.Stock Data" />
         <item itemvalue="Python.main " />
         <item itemvalue="Python.Word Count" />
@@ -271,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639487749235</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Bank Assignment">
+      <created>1642424355254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642424355254</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +330,8 @@
     <MESSAGE value="Extras" />
     <MESSAGE value="Corrections" />
     <MESSAGE value="Assignment 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 3" />
+    <MESSAGE value="Bank Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bank Assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
